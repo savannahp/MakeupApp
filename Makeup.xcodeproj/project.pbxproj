@@ -190,6 +190,9 @@
 		9667493E20ABC21500CE266F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					button,
+				);
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Savannah Pyle";
