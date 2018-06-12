@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var answerLabel: UILabel!
     
     @IBAction func showAnswer(_ sender: AnyObject) {
-        answerLabel.text = elementList[currentElementIndex];
+        answerLabel.text = elementMap[elementList[currentElementIndex]];
     }
     
     @IBAction func gotoNextElement(_ sender: AnyObject) {
@@ -26,6 +26,11 @@ class ViewController: UIViewController {
     }
     
     let elementList = ["testmakeup", "testmakeup2", "testmakeup3", "testmakeup4"];
+    var elementMap = ["testmakeup": "test descript \n 2nd item",
+                      "testmakeup2": "hello",
+                      "testmakeup3" : "bye",
+                      "testmakeup4" : "felicia"];
+   
     var currentElementIndex = 0;
     
     func updateElement () {
@@ -47,6 +52,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    ///new code
+     let elementInfo = ["test", "test1", "test2", "test4"];
 
 
 }
