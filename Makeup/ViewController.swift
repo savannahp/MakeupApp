@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
     
     let elementList = ["testmakeup", "testmakeup2", "testmakeup3", "testmakeup4"];
-    var elementMap = ["testmakeup": "test descript \n 2nd item",
+    var elementMap = ["testmakeup": "test descript\n2nd item",
                       "testmakeup2": "hello",
                       "testmakeup3" : "bye",
                       "testmakeup4" : "felicia"];
